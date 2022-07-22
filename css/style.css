@@ -1,0 +1,133 @@
+
+
+body
+   {
+     background-image: url("bg.png")
+   }
+
+ul
+    {
+        list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: rgb(162, 161, 161);
+		overflow: hidden;
+        font-weight: bold;
+        font-style: oblique;
+    }   
+li a    
+    {
+        text-decoration:solid; 
+        color:rgb(0, 0, 0);
+        display: block;
+        padding: 14px 16px;
+        text-align:center
+    }
+
+li    
+  {
+      float:left;
+  }
+
+li a:hover
+    {
+        background-color: rgb(210, 95, 183);
+        color:beige
+    }
+
+/*css class*/    
+div.kotak1
+	{
+		width: 45%;
+		background-image: url("pst.jpg");
+		height: 700px;
+        margin-bottom: 10%;
+	}
+
+div.kotak2
+    {
+        width: 45%;
+		background-color: #4c8980;
+		height: 850px;
+		float:center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+  
+    }
+
+    div.kotak3
+    {
+        width: 60%;
+		background-color: #cdbe89;
+		height: 1500px;
+		float:center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+  
+    }    
+
+
+
+div
+    {
+        font-style: italic;
+        
+    }  
+
+img
+    {
+        margin-top: 3%;
+        align-items: center;
+    }
+
+table
+	{
+        margin-top: 2%;
+		border-collapse: collapse;
+		width: 1000px;
+	}
+tr 
+	{
+		background-color: #e289a9;
+	}
+
+th	
+	{
+		background-color: #183030;
+		color: rgb(246, 242, 245);
+	}
+
+td,th	
+	{
+		padding: 15px;
+		text-align: center;
+	}   
+
+tr:hover
+	{
+		background-color: #68cac0;
+	}
+
+div.map
+	{
+		height: 300px;
+		padding-top: 300px;
+	}
+
+
+div.contact-kotak-1
+	{
+		width: 15%;
+		height: 100px;
+		float:left;
+		padding-left: 20px;
+	}
+
+div.contact-kotak-2
+	{
+		width: 15%;		
+		height: 100px;
+		float:left;
+		padding: 20px
+	}   
+
